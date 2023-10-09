@@ -27,6 +27,9 @@ public class Program {
 		if (notas.calcularMedia() >= 7 ) {
 			System.out.println("Média: " + notas.calcularMedia() + " Aproavdo!");
 		}
+		else if (notas.calcularMedia() >= 5) {
+			System.out.println("Média: " + notas.calcularMedia() + " Recuperação!");
+		}
 		else {
 			System.out.println("Média: " + notas.calcularMedia() + " Reprovado!");
 		}
